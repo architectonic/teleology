@@ -1,61 +1,122 @@
+---
+type: Entry Point
+title: teleology
+description: Runtime-neutral doctrine for purpose, truth, evidence, method, ontology, and governance in human-agent collaboration.
+tags: [teleology, doctrine, epistemology, ontology, governance, okf]
+okf_version: "0.1"
+status: draft
+---
+
 # teleology
 
-A purpose-first operating model for human + AI collaboration.
+`teleology` is the doctrine root for a runtime-neutral knowledge operating system for human-agent collaboration.
 
-## Premise
-
-Human + AI collaboration fails when agents can act, remember, reason, and use tools without a clear answer to the highest-order question:
+It starts with the highest-order question:
 
 > What is this intelligence for?
 
-`teleology` starts from purpose. It treats goals, boundaries, truth, method, identity, projects, memory, skills, tools, and agents as parts of one operating constitution.
+This repository is not a prompt pack, a private vault, a project memory dump, or a runtime-specific skill library. It defines the philosophical and operational doctrine that should govern downstream identity, project, skill, agent, and operator packages.
 
-This repository is the root model. It is not a private vault, a generic prompt pack, or the full skill corpus.
+The current GitHub namespace is only a publishing location. It is not the project name.
 
-## Core philosophical stack
+## Purpose
 
-```text
-teleology.md     # what are we trying to achieve?
-ethics.md        # what must not be violated?
-ontology.md      # what kinds of things exist?
-epistemology.md  # how do we know what is true?
-methodology.md   # how do we work?
-psychology.md    # how do we understand human intent, ambiguity, humor, stress, and preference?
-economics.md     # how do we allocate scarce resources, budgets, time, compute, and attention?
-governance.md    # who has authority to decide, delegate, override, and amend?
-```
-
-## Ecosystem packages
+Modern agents can act, remember, reason, write code, use tools, and call other systems. They still fail when they lack clear doctrine for:
 
 ```text
-teleology  = purpose-first operating system package
-identity   = human / agent identity package
-project    = operating unit template
-skills     = progressively discoverable skill corpus
-library    = indexed reference map for external sources, repos, standards, and prior art
-agents     = preconfigured role bundles combining prompts, doctrine, identity, tools, and skills
+purpose
+truth
+evidence
+memory
+uncertainty
+ontology
+method
+authority
+governance
+handoff
 ```
 
-## Public template vs. private instance
+`teleology` defines the root concepts that prevent agent behavior from collapsing into prompt slop, vague memory, overconfident inference, or tool-driven action without purpose.
 
-The public packages define doctrine, schemas, templates, examples, and interrogation procedures.
+## Core doctrine
 
-A private vault instantiates them with real human, project, source, and decision knowledge.
+The expected doctrine stack is:
 
 ```text
-public scaffold
-→ agent-guided interrogation and source review
-→ source-grounded private/project vault
+teleology.md     # what the intelligence is for
+epistemology.md  # how truth, evidence, uncertainty, memory, and inference work
+ontology.md      # what kinds of things exist in the system
+ethics.md        # what must not be violated
+methodology.md   # how work should proceed
+psychology.md    # how human intent, ambiguity, stress, humor, and preference should be interpreted
+economics.md     # how scarce resources such as time, budget, compute, and attention are allocated
+governance.md    # who has authority to decide, delegate, override, amend, or stop
 ```
+
+Additional doctrine may be added only when it changes future agent behavior in a useful, verifiable way.
+
+## Relationship to OKF
+
+This repository should be maintained as an OKF-compatible knowledge bundle.
+
+The canonical source is Markdown with YAML frontmatter. `index.md` files should provide progressive disclosure. `log.md` files should record meaningful changes. Markdown links should express relationships between concepts. Citations should be used when factual claims depend on external sources.
+
+OKF is the carrier format. Teleology is the doctrine.
+
+## Relationship to other packages
+
+```text
+teleology = doctrine root
+identity  = actor model for humans, users, agents, teams, organizations, and roles
+project   = project operating-unit templates and source-grounding procedures
+skills    = compact reusable procedures
+agents    = role bundles combining doctrine, identity, skills, tools, prompts, scripts, and loops
+operator  = installation, update, audit, runtime export, and package governance
+```
+
+`teleology` should not contain private identity, private project facts, runtime-specific implementation details, or skill corpora. It should define the principles that downstream packages apply.
+
+## Public boundary
+
+This repository may contain:
+
+```text
+general doctrine
+schemas
+templates
+examples
+runtime-neutral instructions
+source-backed references
+```
+
+It must not contain:
+
+```text
+private user facts
+private project facts
+private source paths
+private decisions
+private handoffs
+runtime-specific secrets
+namespace-specific branding treated as project identity
+```
+
+## Quality rule
+
+A file belongs here only if it helps an agent reason better from first principles.
+
+Keep material that clarifies purpose, truth, evidence, memory, uncertainty, authority, ontology, or method.
+
+Remove material that is generic, decorative, obvious, redundant, or unable to change future agent behavior.
 
 ## Instantiation rule
 
 Do not preserve template language as if it were knowledge.
 
-Replace template material only with:
+When this doctrine is instantiated into a private vault, project, user profile, agent profile, or runtime workspace, replace template material only with:
 
-1. explicit human answers;
-2. source-grounded facts;
+1. source-grounded facts;
+2. explicit human answers;
 3. labeled assumptions;
 4. open questions;
 5. documented decisions with reasons and scope.
@@ -64,4 +125,4 @@ Memory is context, not evidence. Source artifacts outrank memory.
 
 ## Status
 
-Early vocabulary and ontology work. The immediate goal is to separate the root model from identity profiles, project templates, skill aggregation, source libraries, and agent role bundles.
+Draft. The immediate goal is to separate root doctrine from identity profiles, project templates, skills, agents, operators, source libraries, and private instances.
