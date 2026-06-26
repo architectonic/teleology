@@ -4,36 +4,64 @@ A purpose-first operating model for human + AI collaboration.
 
 ## Premise
 
-Human + AI collaboration fails when agents can act, remember, and reason without a clear answer to the highest-order question:
+Human + AI collaboration fails when agents can act, remember, reason, and use tools without a clear answer to the highest-order question:
 
 > What is this intelligence for?
 
-`teleology` starts from purpose. It treats goals, boundaries, truth, method, memory, skills, tools, and agents as parts of one operating constitution.
+`teleology` starts from purpose. It treats goals, boundaries, truth, method, identity, projects, memory, skills, tools, and agents as parts of one operating constitution.
 
-## Core vocabulary
+This repository is the root model. It is not a private vault, a generic prompt pack, or the full skill corpus.
 
-- `teleology` — what we are trying to achieve.
-- `ethics` — what must not be violated.
-- `ontology` — what kinds of things exist.
-- `epistemology` — how we know what is true.
-- `methodology` — how we work.
-- `identity` — who the human or agent is in the collaboration.
-- `project` — an operating unit with goals, sources, architecture, decisions, and memory.
-- `skills` — progressively discoverable repeatable procedures.
-- `library` — indexed reference map for public sources, repos, standards, and prior art.
-- `agents` — configured roles combining identity, doctrine, tools, and skills.
+## Core philosophical stack
 
-## Intended ecosystem
+```text
+teleology.md     # what are we trying to achieve?
+ethics.md        # what must not be violated?
+ontology.md      # what kinds of things exist?
+epistemology.md  # how do we know what is true?
+methodology.md   # how do we work?
+psychology.md    # how do we understand human intent, ambiguity, humor, stress, and preference?
+economics.md     # how do we allocate scarce resources, budgets, time, compute, and attention?
+governance.md    # who has authority to decide, delegate, override, and amend?
+```
+
+## Ecosystem packages
 
 ```text
 teleology  = purpose-first operating system package
-identity   = user / agent identity package
+identity   = human / agent identity package
 project    = operating unit template
-skills     = skill corpus and progressively discoverable capability set
-library    = indexed reference map for external sources and repos
-agents     = preconfigured agent roles, prompts, and skill bundles
+skills     = progressively discoverable skill corpus
+library    = indexed reference map for external sources, repos, standards, and prior art
+agents     = preconfigured role bundles combining prompts, doctrine, identity, tools, and skills
 ```
+
+## Public template vs. private instance
+
+The public packages define doctrine, schemas, templates, examples, and interrogation procedures.
+
+A private vault instantiates them with real human, project, source, and decision knowledge.
+
+```text
+public scaffold
+→ agent-guided interrogation and source review
+→ source-grounded private/project vault
+```
+
+## Instantiation rule
+
+Do not preserve template language as if it were knowledge.
+
+Replace template material only with:
+
+1. explicit human answers;
+2. source-grounded facts;
+3. labeled assumptions;
+4. open questions;
+5. documented decisions with reasons and scope.
+
+Memory is context, not evidence. Source artifacts outrank memory.
 
 ## Status
 
-Early vocabulary and ontology work. This repository is the root model, not the private vault and not the full skills corpus.
+Early vocabulary and ontology work. The immediate goal is to separate the root model from identity profiles, project templates, skill aggregation, source libraries, and agent role bundles.
