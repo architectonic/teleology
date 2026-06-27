@@ -1,0 +1,25 @@
+{
+  "name": "teleology",
+  "version": "0.1.0",
+  "description": "Runtime-neutral doctrine for purpose, truth, evidence, method, ontology, and governance in human-agent collaboration.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "teleology": "./bin/teleology.js"
+  },
+  "files": [
+    "bin",
+    "doctrine",
+    "AGENTS.md",
+    "index.md",
+    "README.md",
+    "START_HERE.md"
+  ],
+  "keywords": [
+    "teleology",
+    "doctrine",
+    "governance",
+    "okf",
+    "agents"
+  ]
+}
